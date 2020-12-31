@@ -2,34 +2,67 @@ body {
     font: 20px Arial, sans-serif ;
 }
 
-.navbar {
-    background-color: #ff6e73;
-    color: white;
-}
-
-.quem-somos {
-    background-color: rgb(104, 104, 194);
-    color: white;
-}
-
-.margin {
-    padding: 40px 0 40px 0;
-}
-
-.collapse .navbar-nav .nav-item .nav-link {
-    color: white;
-}
-
 .navbar-brand > img {
     width: 100px;
     padding-left: 20px;
     padding-top: 10px;
 }
 
-.parceiros {
-    background-color: green;
+.collapse .navbar-nav .nav-item .nav-link {
+    color: white;
+}
+
+.navbar {
+    background-color: #ff0008;
+    color: white;
+}
+
+.margin {
+    padding: 30px 0 30px 0;
+}
+
+.quem-somos {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.parceiros { 
+    background-color: rgb(0, 0, 0);
+    color: white;
 }
 
 .col-lg-4 {
+    padding: 10px
+}
+
+.col-lg-6 > img {  /* Arrumando imagens da area "SERVIÇOS*/
+    width: 100%;
     padding: 20px
+}
+
+.descricaoempresa{
+    text-align: justify;
+}
+
+#parceiros, #quemsomos, #servicos {
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 50px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    text-align: right;
+    text-decoration: revert;
+    color: red;
+}
+
+.footer {
+    text-align: center;
+    margin: 30px;
 }

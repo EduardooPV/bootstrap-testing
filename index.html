@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Testing bootstrap</title>
+    <title>Fabrica de casamentos</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -16,33 +17,72 @@
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav">
                 <li class="nav-item"><a class="nav-link" href="#quemsomos">Quem somos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
                 <li class="nav-item"><a class="nav-link" href="#parceiros">Parceiros</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Imagens</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Casamentos</a></li>
+                
             </ul>
         </div>
     </nav>
 
+
+
     <section id="quemsomos">
         <div class="container-fluid quem-somos text-center margin">
-            <h3 class="margin">Quem somos</h3>
-            <img src="img/casamento1.jpg" class="rounded-circle" height="400px" width="400px" alt="Quem somos imagem">
-            <h3 class="margin">Somos uma empresa comprometida a realizar os seus casamentos com profissionalismo.</h3>
+            <h2 class="margin">QUEM SOMOS</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img src="img/casamento1.jpg" height="500px" width="300px" alt="Quem somos imagem">
+                    </div>
+                    <div class="col-lg-6">
+                        <h2>(NomeEmpresa)</h2>
+                        <h3 class="margin descricaoempresa">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis hic quisquam doloribus totam accusantium saepe, voluptas um d. Magni dicta earum, quae odio eveniet quas vel cupiditate, illo eos maxime officiis necessitatibus cum quaerat molestias consequuntur, eaque obcaecati repreh reprehenderit quibusdam voluptatem molestias obcaecaob caecati. <a class="link"href="#">SAIBA MAIS!</a> </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="servicos">
+        <div class="container-fluid text-center margin servicos">
+            <h2 class="margin">SERVIÇOS</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h3>Casamento Roberto e Rebeca</h3>
+                        <address>Lipari, Ilhas Eólias (Itália)</address>
+                        <img src="img/festacasamento1.jpg" alt="Festa de casamento numero1">
+                        <p>Evento realizado em 2018</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <h3>Casamento Julio e Barbara</h3>
+                        <address>Gloucestershire (Inglaterra)</address>
+                        <img src="img/festacasamento2.jpg" alt="Festa de casamento numero2">
+                        <p>Evento realizado em 2019</p>
+                    </div>
+                </div>
+                <a class="link"href="#">Vejas mais eventos!</a>
+            </div>
         </div>
     </section>
 
     <section id="parceiros">
         <div class="container-fluid text-center margin parceiros">
-            <h3>PARCEIROS</h3>
+            <h2 class="margin">PARCEIROS</h2>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4">
+                        <p>Empresa Lorem</p>
+                        <img src="img/empresas.png" alt="Imagem das empresas parceiras">
+                        
+                    </div>
+                    <div class="col-lg-4">
+                        <p>Empresa Lorem</p>
                         <img src="img/empresas.png" alt="Imagem das empresas parceiras">
                     </div>
                     <div class="col-lg-4">
-                        <img src="img/empresas.png" alt="Imagem das empresas parceiras">
-                    </div>
-                    <div class="col-lg-4">
+                        <p>Empresa Lorem</p>
                         <img src="img/empresas.png" alt="Imagem das empresas parceiras">
                     </div>
                 </div>
@@ -50,6 +90,13 @@
         </div>
     </section>
 
+    <footer>
+        <footer class="footer">
+            <p>&copy; EduardoPrado - Todos os direitos reservados.</p>
+            <p><a class="link" href=""><img src="img/github-icon.png" width="30px" alt=""> /EduardooPV <a></p>
+            <p><a class="link" href=""><img src="img/linkedin-icon.png" width="40px" alt=""> /Luiz Eduardo</a></p>
+        </footer>
+    </footer>
 
 </body>
 
