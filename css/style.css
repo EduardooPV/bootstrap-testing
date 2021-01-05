@@ -2,6 +2,11 @@ body {
     font: 20px Arial, sans-serif ;
 }
 
+.titulos {
+    font: 70px "Times new roman";
+    margin-bottom: 50px;
+}
+
 .navbar-brand > img {
     width: 100px;
     padding-left: 20px;
@@ -13,7 +18,7 @@ body {
 }
 
 .navbar {
-    background-color: #ff0008;
+    background-color: #000000;
     color: white;
 }
 
@@ -22,7 +27,8 @@ body {
 }
 
 .quem-somos {
-    background-color: rgb(0, 0, 0);
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,0.80)100%), url('../img/casamentobackground.jpg');
+    background-size: cover;
     color: white;
 }
 
@@ -45,24 +51,21 @@ body {
 }
 
 #parceiros, #quemsomos, #servicos {
-    padding: 20px;
+    padding: 10px;
 }
 
-h2 {
-    margin-bottom: 50px;
-}
 
 .link {
     text-decoration: none;
 }
 
-.link:hover {
+.link:hover {  /* Muda o link quando passa o mouse encima. */
     text-align: right;
     text-decoration: revert;
     color: red;
 }
 
-.footer {
+.footer {  /* Rodapé da página. */
     text-align: center;
     margin: 30px;
 }
