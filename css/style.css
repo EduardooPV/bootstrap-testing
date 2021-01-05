@@ -32,7 +32,12 @@ body {
     color: white;
 }
 
-.descricaoempresa{  /* Texto descrevendo a empresa */
+#quemsomos .quem-somos .container .row .col-lg-6 h2{  /* Titulo quem somos*/
+    padding-top: 10px;
+    font-size: 60px;
+}
+
+.descricaoempresa {  /* Texto descrevendo a empresa */
     text-align: justify;
 }
 
@@ -46,6 +51,7 @@ body {
 }
 
 .link {
+    font-size: 30px;
     text-decoration: none;
 }
 
@@ -70,5 +76,6 @@ body {
 
 .footer {  /* Rodapé da página. */
     text-align: center;
-    margin: 30px;
+    padding: 20px;
+    margin: 0px 10px 10px 10px;
 }
