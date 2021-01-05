@@ -32,6 +32,33 @@ body {
     color: white;
 }
 
+.descricaoempresa{  /* Texto descrevendo a empresa */
+    text-align: justify;
+}
+
+.col-lg-6 > img {  /* Arrumando imagens da area "SERVIÇOS*/
+    width: 100%;
+    padding: 20px;
+}
+
+.servicos .row .col-lg-6 {  /* Distanciamento entre as fotos das festas */
+    padding-bottom: 80px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {  /* Muda o link quando passa o mouse  */
+    text-align: right;
+    text-decoration: revert;
+    color: red;
+}
+
+#parceiros, #quemsomos, #servicos {
+    padding: 10px;
+}
+
 .parceiros { 
     background-color: rgb(0, 0, 0);
     color: white;
@@ -39,30 +66,6 @@ body {
 
 .col-lg-4 {
     padding: 10px
-}
-
-.col-lg-6 > img {  /* Arrumando imagens da area "SERVIÇOS*/
-    width: 100%;
-    padding: 20px
-}
-
-.descricaoempresa{
-    text-align: justify;
-}
-
-#parceiros, #quemsomos, #servicos {
-    padding: 10px;
-}
-
-
-.link {
-    text-decoration: none;
-}
-
-.link:hover {  /* Muda o link quando passa o mouse encima. */
-    text-align: right;
-    text-decoration: revert;
-    color: red;
 }
 
 .footer {  /* Rodapé da página. */
